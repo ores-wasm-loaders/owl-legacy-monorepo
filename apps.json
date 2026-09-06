@@ -1,0 +1,19 @@
+{
+  "org": "ores-wasm-loaders",
+  "testOrg": "ores-wasm-loaders-test",
+  "repos": [
+    { "name": "owl-interfaces", "kind": "interfaces", "runtime": "typescript" },
+    { "name": "owl-coordinator", "kind": "lib-core", "runtime": "typescript" },
+    { "name": "owl-rust-loader", "kind": "pub-lib-core", "runtime": "typescript" },
+    { "name": "owl-flutter-loader", "kind": "pub-lib-core", "runtime": "typescript" },
+    { "name": "owl-manifest-tools.rs", "kind": "cli", "runtime": "rust" },
+    { "name": "owl-e2e", "kind": "e2e", "runtime": "typescript" },
+    { "name": "owl-infra", "kind": "infra", "runtime": "terraform" },
+    { "name": "owl-docs", "kind": "docs", "runtime": "docs" },
+    { "name": "owl-monorepo", "kind": "monorepo", "runtime": "workspace" }
+  ],
+  "testRepos": [
+    { "name": "owl-fixtures", "kind": "clients", "runtime": "typescript" },
+    { "name": "owl-conformance", "kind": "e2e", "runtime": "typescript" }
+  ]
+}

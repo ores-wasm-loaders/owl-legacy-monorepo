@@ -1,0 +1,8 @@
+{
+  "name": "@ores-wasm-loaders/owl-monorepo",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "scripts": { "test": "node --test test/*.test.mjs" }
+}
